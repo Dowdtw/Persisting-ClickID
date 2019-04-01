@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Site B</title>
+	<p> This is Site B</p>
+</head>
+<body>
+
+
+<a href="a.html">Site 1</a>
+<a href="b.html">Site 2</a>
+<a href="c.html">Site 3</a>
+<a href="d.html">'Checkout Page'</a>
+
+</body>
+</html>
