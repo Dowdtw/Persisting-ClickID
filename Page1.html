@@ -12,31 +12,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MZG3FB6');</script>
 <!-- End Google Tag Manager -->
-
-
-
-</head>
-<body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG3FB6"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
 	
-
-<div Class = "header">
-	<h1>Page 1</h1>
-	<p></p>
-
-</div>
 
 <Script>	
 function setCookie(ClickID, 1111, 7) {
   var d = new Date();
   d.setTime(d.getTime() + (7*24*60*60*1000));
   var expires = "expires="+ d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  document.cookie =  + "=" + cvalue + ";" + expires + ";path=/";
 }
 	function getCookie(ClickID) {
   var name = Clickid + "=";
@@ -67,7 +50,22 @@ function checkCookie() {
 }
 	
 </script>
-		
+
+</head>
+<body onload="checkCookie()">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG3FB6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	
+
+<div Class = "header">
+	<h1>Page 1</h1>
+	<p></p>
+
+</div>
 	
 
 <a href="Page1.html">Page1</a>
