@@ -30,9 +30,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 
+<Script>
 
-<div Class = "container">
-</div>
+var url_string = "https://dowdtw.github.io/Persisting-ClickID/Page1.html/; //window.location.href
+var url = new URL(url_string);
+var c = url.searchParams.get("clickid");
+console.log(clickid);
+	
+	  
 
 <a href="Page1.html">Page1</a>
 <a href="Page2.html">Page2</a>
